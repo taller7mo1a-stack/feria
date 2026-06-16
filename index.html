@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feria de Ciencias 2026 - Escuela Técnica "Dr. Juan G. Pujol"</title>
+    <!-- Enlace a Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <style>
+        /* Desplazamiento suave al hacer clic en los enlaces del menú */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Espaciado para que la barra de navegación fija no tape el contenido */
+        section {
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">Mi Sitio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="py-5 text-center bg-light">
+        <div class="container">
+            <h1 class="display-4">Bienvenido a la Feria de Ciencias y Tecnologías STEAM 2026</h1>
+            <p class="lead">Escuela Técnica "Dr. Juan Gregorio Pujol" - Saladas  (Ctes).</p>
+        </div>
+    </section>
+
+    <!-- Sección de la Card / Imagen -->
+    <section id="galeria" class="py-5">
+        <div class="container d-flex justify-content-center">
+            <!-- Card de Bootstrap -->
+            <div class="card shadow-sm" style="width: w-100;">
+                <img src="imagenes/croquis_900.png"  class="img-fluid" alt="Croquis de Ubicación">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Título de la Imagen</h5>
+                    <p class="card-text">Una breve descripción de la imagen que se muestra arriba.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">&copy; 2026 Feria de Ciencias y Tecnologías STEAM - Escuela Técnica "Dr. Juan G. Pujol" Saladas (Ctes). Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script de Bootstrap -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
